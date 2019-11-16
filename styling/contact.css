@@ -1,0 +1,12 @@
+#contact-info {
+    text-align: center;
+    padding: 150px 0px;
+    background-color: lightgray;
+    margin-top: 200px;
+}
+#contact-footer {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+}
