@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+}
+.nav-bar {
+    background-color: grey;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+.site-title {
+    text-align: center;
+    color: white;
+}
+#headline {
+    margin-top: 125px;
+    margin-bottom: 50px;
+    text-align: center;
+    font-size: 25px;
+}
+#bio-section {
+    text-align: center;
+    padding: 100px 0px;
+    background-color: lightgray;
+}
+#portfolio {
+    margin: 100px auto;
+}
+#star-wars-section {
+    text-align: center;
+    padding: 100px 0px;
+    background-color: lightgray;
+}
+#goveg-section {
+    text-align: center;
+    padding: 100px 0px;
+    background-color: darkgray;
+}
+#budgit-section {
+    text-align: center;
+    padding: 100px 0px;
+    background-color: lightgray;
+}
+#dogood-section {
+    text-align: center;
+    padding: 100px 0px;
+    background-color: darkgray;
+}
+.footer {
+    padding: 10px;
+    background-color: gray;
+}
