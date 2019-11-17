@@ -1,5 +1,6 @@
 * {
     margin: 0;
+    font-family: 'Montserrat Alternates', sans-serif;
 }
 .nav-bar {
     background-color: grey;
@@ -10,6 +11,7 @@
 .site-title {
     text-align: center;
     color: white;
+    font-size: 40px;
 }
 #headline {
     margin-top: 125px;
