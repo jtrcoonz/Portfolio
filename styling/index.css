@@ -1,7 +1,6 @@
 * {
     margin: 0;
     font-family: 'Montserrat Alternates', sans-serif;
-    font-weight: 400;
 }
 .nav-bar {
     background-color: rgba(0, 98, 129, 1);
@@ -15,9 +14,10 @@
     color: white;
     font-size: 35px;
     position: absolute;
-    top: 20px;
+    top: 22px;
     left: 30px;
     margin: 0px;
+    font-weight: 400;
 }
 .link {
     color: white;
@@ -52,10 +52,15 @@
     right: 30px;
 }
 #headline {
-    margin-top: 125px;
-    margin-bottom: 50px;
+    /* margin-top: 175px;
+    margin-bottom: 50px; */
+    margin: 175px auto 50px auto;
     text-align: center;
+    max-width: 90%;
+}
+#headline > h2 {
     font-size: 25px;
+    font-weight: 500;
 }
 #bio-section {
     text-align: center;
@@ -88,4 +93,39 @@
 .footer {
     padding: 10px;
     background-color: gray;
+}
+@media screen and (min-width: 0px) and (max-width: 400px) {
+    .link {
+        display: none;
+    }
+    .drop-menu {
+        display: inline-block;
+        position: absolute;
+        right: 20px;
+        bottom: 20px;
+        height: 50px;
+        width: 50px;
+    }
+    .site-title {
+        font-size: 25px;
+        top: 30px;
+    }
+}
+@media screen and (min-width: 401px) and (max-width: 750px) {
+    .link {
+        display: none;
+    }
+    .drop-menu {
+        display: inline-block;
+        position: absolute;
+        right: 15px;
+        bottom: 10px;
+        height: 70px;
+        width: 70px;
+    }
+}
+@media screen and (min-width: 751px) {
+    .drop-menu {
+        display: none;
+    }
 }
