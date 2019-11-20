@@ -57,13 +57,31 @@
     max-width: 90%;
 }
 #headline > h2 {
-    font-size: 25px;
+    font-size: 30px;
     font-weight: 500;
 }
 #bio-section {
-    text-align: center;
-    padding: 100px 0px;
-    background-color: lightgray;
+    text-align: left;
+    padding: 35px 0px;
+    background-color: rgba(0, 98, 129, 0.1);
+    margin-top: 75px;
+}
+#bio-title {
+    margin: 0px auto 20px auto;
+    text-align: left;
+    width: 90%;
+    font-weight: 500;
+    font-size: 25px;
+}
+.bio-content {
+    width: 90%;
+    margin: 0 auto;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 2.5;
+}
+#bio-1, #bio-2 {
+    margin-bottom: 15px;
 }
 #portfolio {
     margin: 100px auto;
@@ -92,6 +110,7 @@
     padding: 10px;
     background-color: gray;
 }
+
 @media screen and (min-width: 0px) and (max-width: 400px) {
     .link {
         display: none;
