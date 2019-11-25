@@ -125,11 +125,11 @@
     top: 20px;
     right: 5%; 
 }
-#goveg-header {
+#goveg-header, #dogood-header {
     top: 42px;
     left: 5%;
 }
-#budgit-header, #dogood-header{
+#budgit-header{
     top: 42px;
 }
 .info {
