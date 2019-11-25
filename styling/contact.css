@@ -1,8 +1,24 @@
 #contact-info {
+    background-color: rgba(0, 98, 129, 0.1);
+    position: absolute;
+    top: 30%;
+    width: 100%
+}
+#contact-container {
+    width: 200px;
+    margin: 0 auto;
     text-align: center;
-    padding: 150px 0px;
-    background-color: lightgray;
-    margin-top: 200px;
+    padding: 30px 0px 60px 0px;
+}
+#lets-talk {
+    font-weight: 400;
+    margin-bottom: 40px;
+}
+#email-header, #phone-header {
+    font-weight: 500;
+}
+#email {
+    margin-bottom: 20px;
 }
 #contact-footer {
     position: absolute;
