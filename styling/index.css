@@ -217,6 +217,9 @@
         height: 50px;
         width: 50px;
     }
+    .drop-menu:hover {
+        cursor: pointer;
+    }
     .site-title {
         font-size: 25px;
         top: 30px;
@@ -311,6 +314,9 @@
         bottom: 10px;
         height: 70px;
         width: 70px;
+    }
+    .drop-menu:hover {
+        cursor: pointer;
     }
     #bio-title {
         text-align: center;
