@@ -3,6 +3,14 @@
     font-family: 'Montserrat Alternates', sans-serif;
     box-sizing: border-box;
 }
+.black-box {    
+    background-color: rgba(0,0,0,0.5);
+	position: fixed;
+	width:100%;
+	top:0;
+	bottom:0;
+    z-index: 100;
+}
 .nav-bar {
     background-color: rgba(0, 98, 129, 1);
     position: fixed;
@@ -202,6 +210,23 @@
 .footer {
     padding: 10px;
     background-color: rgba(0, 98, 129, 1);
+}
+.drop-menu-opened {
+    position: absolute;
+    right: 0;
+    top: 0;
+    background-color: white;
+    padding: 20px;
+}
+.dmo-menu {
+    text-align: center;
+    font-size: 25px;
+    font-weight: 500;
+}
+.dmo-link {
+    display: block;
+    text-align: center;
+    text-decoration: none;
 }
 
 @media screen and (min-width: 0px) and (max-width: 420px) {
