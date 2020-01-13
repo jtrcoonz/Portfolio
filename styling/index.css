@@ -126,12 +126,10 @@
     margin-bottom: 200px;
 }
 .section-header {
-    font-weight: 400;
-    font-size: 20px;
-    text-align: left;
-    position: absolute; 
-    top: 20px;
-    right: 5%; 
+    font-weight: 500;
+    font-size: 25px;
+    text-align: center;
+    padding-top: 40px;
 }
 #goveg-header, #dogood-header {
     top: 42px;

@@ -1,24 +1,50 @@
 #contact-info {
     background-color: rgba(0, 98, 129, 0.1);
     position: absolute;
-    top: 30%;
+    top: 35%;
     width: 100%
 }
 #contact-container {
-    width: 200px;
     margin: 0 auto;
     text-align: center;
-    padding: 30px 0px 60px 0px;
+    padding: 60px 0px 60px 0px;
 }
 #lets-talk {
     font-weight: 400;
-    margin-bottom: 40px;
+    margin: 200px auto;
+    padding: 10px 0px;
+    text-align: center;
+    font-size: 40px;
+    display: block;
+    /* background-color: rgba(0, 98, 129, 1); */
+    color: black;
+    /* width: 225px; */
+    border-radius: 5px;
 }
 #email-header, #phone-header {
     font-weight: 500;
+    font-size: 30px;
 }
 #email {
     margin-bottom: 20px;
+    display: inline-block;
+    color: black;
+    padding: 2px 5px;
+    font-size: 20px;
+    color: rgba(0, 98, 129, 1)
+}
+#phone {
+    color: black;
+    padding: 2px 5px;
+    display: inline-block;
+    margin-bottom: 5px;
+    font-size: 20px;
+    color: rgba(0, 98, 129, 1)
+}
+#email:hover, #phone:hover {
+    background-color: rgba(0, 98, 129, 1);
+    color: white;
+    border-radius: 2px;
 }
 #contact-footer {
     position: absolute;
