@@ -28,6 +28,13 @@
     left: 30px;
     margin: 0px;
     font-weight: 400;
+    padding: 0px 5px;
+    border-radius: 2px;
+}
+.site-title:hover {
+    color: rgba(0, 98, 129, 1);
+    background-color: white;
+    cursor: pointer;
 }
 .link {
     color: white;
