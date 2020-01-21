@@ -262,6 +262,29 @@
 .close-drop-menu:hover {
     cursor: pointer;
 }
+.footer-link {
+    color: white;
+    text-decoration: underline;
+    cursor: pointer;
+    font-size: 16px;
+    display: inline-block;
+    padding: 2px 3px;
+    border-radius: 2px;
+}
+.footer-link:hover {
+    color: rgba(0, 98, 129, 1);
+    background-color: white;
+}
+#footer-contact {
+    margin-right: 25px;
+}
+
+#footer-linkedin {
+    margin-left: 25px;
+}
+footer {
+    text-align: center;
+}
 
 @media screen and (min-width: 0px) and (max-width: 420px) {
     .link {
