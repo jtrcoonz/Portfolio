@@ -355,19 +355,19 @@ footer {
     }
 }
 @media screen and (min-width: 0px) and (max-width: 600px) {
-    #express {
+    .express {
         top: 65px;
         left: 0;
     }
-    #mongoose {
+    .mongoose {
         top: 65px;
         left: 80px;
     }
-    #chai {
+    .chai {
         top: 65px;
         left: 187px;
     }
-    #jest {
+    .jest {
         top: 65px;
         left: 243px;
     }
