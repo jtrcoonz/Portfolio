@@ -5,7 +5,7 @@
 This application is my professional portfolio, constructed as a static website consisting of HTML, CSS, and some minimalist front-end JS/jQuery. It has 2 main pages, the home and contact pages, as well as some external links to my LinkedIn and GitHub profiles. It is hosted by GitHub pages and was bult using mobile-first design practices.
 
 
-## How To Use It
+## How to Use It
 
 ### The Home Page
 The home page is made up 4 core features:
@@ -32,5 +32,5 @@ serves as additional navigation options to contact me, and visist my LinkedIn an
 The contact page contains my contact information, formatted to create a new email or begin a call when clicking the information. It also contains the same nav bar and footer as the home page.
 
 
-## How To Get Started
+## How to Get Started
 Follow this link to the live site: https://jtrcoonz.github.io/Portfolio/
